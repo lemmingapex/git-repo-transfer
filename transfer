@@ -1,0 +1,2 @@
+git remote add github git@github.com:group/your-repo.git
+git push --mirror github
