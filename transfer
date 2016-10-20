@@ -1,2 +1,10 @@
+for one branch:
+
 git remote add github git@github.com:group/your-repo.git
 git push --mirror github
+
+for all branches:
+
+git clone --mirror git@example.com/your-repo-old.git
+cd your-repo-old.git
+git push --mirror git@example.com/new-location.git
